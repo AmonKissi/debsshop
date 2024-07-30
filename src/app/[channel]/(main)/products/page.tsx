@@ -6,8 +6,8 @@ import { ProductList } from "@/ui/components/ProductList";
 import { ProductsPerPage } from "@/app/config";
 
 export const metadata = {
-	title: "Products · Deb's Shop",
-	description: "All products in Deb's Shop",
+	title: "Products · Debs Shop",
+	description: "All products in Debs Shop",
 };
 
 export default async function Page({

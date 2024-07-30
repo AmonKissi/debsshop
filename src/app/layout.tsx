@@ -7,8 +7,8 @@ import { DraftModeNotification } from "@/ui/components/DraftModeNotification";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "Deb's Shop",
-	description: "Bienvenue chez Deb's Shop, votre destination incontournable pour des vêtements de femme.",
+	title: "Debs Shop",
+	description: "Bienvenue chez Debs Shop, votre destination incontournable pour des vêtements de femme.",
 	metadataBase: process.env.NEXT_PUBLIC_STOREFRONT_URL
 		? new URL(process.env.NEXT_PUBLIC_STOREFRONT_URL)
 		: undefined,

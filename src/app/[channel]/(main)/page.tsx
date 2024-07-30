@@ -3,9 +3,9 @@ import { executeGraphQL } from "@/lib/graphql";
 import { ProductList } from "@/ui/components/ProductList";
 
 export const metadata = {
-	title: "Deb's Shop",
+	title: "Debs Shop",
 	description:
-		"Bienvenue chez Deb's Shop, votre destination incontournable pour des vêtements de femme.",
+		"Bienvenue chez Debs Shop, votre destination incontournable pour des vêtements de femme.",
 };
 
 export default async function Page({ params }: { params: { channel: string } }) {
