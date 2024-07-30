@@ -76,17 +76,17 @@ export async function Footer({ channel }: { channel: string }) {
 				{channels?.channels && (
 					<div className="mb-4 text-neutral-500">
 						<label>
-							<span className="text-sm">Change currency:</span> <ChannelSelect channels={channels.channels} />
+							<span className="text-sm">Changer la devise:</span> <ChannelSelect channels={channels.channels} />
 						</label>
 					</div>
 				)}
 
 				<div className="flex flex-col justify-between border-t border-neutral-200 py-10 sm:flex-row">
-					<p className="text-sm text-neutral-500">Copyright {currentYear} Deb's Shop, Inc.</p>
+					<p className="text-sm text-neutral-500">Copyright {currentYear} Debs Shop Inc</p>
 					<p className="flex gap-1 text-sm text-neutral-500">
 						Powered by{" "}
 						<Link target={"_blank"} href={"https://brstore.us"}>
-							B&R
+							BR
 						</Link>{" "}
 						<Link href={"https://brstore.us"} target={"_blank"} className={"opacity-30"}>
 							<Image alt="B&R" height={20} width={20} src={"/github-mark.svg"} />
