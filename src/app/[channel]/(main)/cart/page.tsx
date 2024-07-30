@@ -19,7 +19,7 @@ export default async function Page({ params }: { params: { channel: string } }) 
 			<section className="mx-auto max-w-7xl p-8">
 				<h1 className="mt-8 text-3xl font-bold text-neutral-900">Votre panier est vide</h1>
 				<p className="my-12 text-sm text-neutral-500">
-				Il semble que vous n'avez pas encore ajouté d'articles au panier.
+				Il semble que vous n avez pas encore ajoute d articles au panier.
 				</p>
 				<LinkWithChannel
 					href="/products"
@@ -87,7 +87,7 @@ export default async function Page({ params }: { params: { channel: string } }) 
 						<div className="flex items-center justify-between gap-2 py-2">
 							<div>
 								<p className="font-semibold text-neutral-900">Votre total</p>
-								<p className="mt-1 text-sm text-neutral-500">Les frais de livraison seront calculés à l'étape suivante</p>
+								<p className="mt-1 text-sm text-neutral-500">Les frais de livraison seront calcules à l etape suivante</p>
 							</div>
 							<div className="font-medium text-neutral-900">
 								{formatMoney(checkout.totalPrice.gross.amount, checkout.totalPrice.gross.currency)}
