@@ -73,8 +73,8 @@ export async function Footer({ channel }: { channel: string }) {
 					})}
 				</div>
 				<div className="flex flex-col items-start border-t border-neutral-200 py-10">
-					<h3 className="text-sm font-semibold text-neutral-900">📧 Achat@debsshops.com</h3>
-					<h3 className="text-sm font-semibold text-neutral-900">📞 +225 07 97 33 90 29</h3>
+					<h3 className="text-sm font-semibold text-neutral-900">📧: Achat@debsshops.com</h3>
+					<h3 className="text-sm font-semibold text-neutral-900">📞: +225 07 97 33 90 29</h3>
 				</div>
 
 				{channels?.channels && (
