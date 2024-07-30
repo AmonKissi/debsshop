@@ -9,7 +9,7 @@ import { type OptionalAddress, type AddressField } from "@/checkout/components/A
 import { defaultCountry } from "@/checkout/lib/consts/countries";
 import { getOrderedAddressFields, getRequiredAddressFields } from "@/checkout/components/AddressForm/utils";
 
-export type AddressFieldLabel = Exclude<AddressField, "countryCode"> | "country";
+export type AddressFieldLabel = Exclude<AddressField, "countryCode"> | "Pays";
 export const addressFieldMessages: Record<AddressFieldLabel, string> = {
 	city: "Ville",
 	firstName: "Prénom",

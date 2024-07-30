@@ -40,7 +40,7 @@ export const GuestBillingAddressSection = () => {
 				<div className="mb-4">
 					<FormProvider form={form}>
 						<AddressForm
-							title="Billing address"
+							title="Adresse de facturation"
 							fieldProps={{
 								onChange: handleChange,
 								onBlur: handleBlur,

@@ -22,8 +22,8 @@ export const GuestUser: React.FC<GuestUserProps> = ({
 	return (
 		<SignInFormContainer
 			title="Coordonnées"
-			redirectSubtitle="Already have an account?"
-			redirectButtonLabel="Sign in"
+			redirectSubtitle="Vous avez deja un compte ?"
+			redirectButtonLabel="Se connecter"
 			onSectionChange={onSectionChange}
 		>
 			<FormProvider form={form}>
@@ -39,7 +39,7 @@ export const GuestUser: React.FC<GuestUserProps> = ({
 					/>
 					<Checkbox
 						name="createAccount"
-						label="I want to create account"
+						label="Je veux créer un compte"
 						data-testid={"createAccountCheckbox"}
 					/>
 					{createAccount && (
