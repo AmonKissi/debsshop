@@ -98,7 +98,7 @@ export const Summary: FC<SummaryProps> = ({
 					<div className="flex flex-row items-baseline">
 						<p className="font-bold">Prix total</p>
 						<p color="secondary" className="ml-2">
-						comprend {getFormattedMoney(totalPrice?.tax)} les taxes
+						y compris {getFormattedMoney(totalPrice?.tax)} taxes
 						</p>
 					</div>
 					<Money ariaLabel="total price" money={totalPrice?.gross} data-testid="totalOrderPrice" />
