@@ -5,7 +5,7 @@ import { ProductList } from "@/ui/components/ProductList";
 export const metadata = {
 	title: "Debs Shop",
 	description:
-		"Bienvenue chez Debs Shop, votre destination incontournable pour des vêtements de femme.",
+		"Bienvenue chez Debs Shop votre destination incontournable pour des vetements de femme.",
 };
 
 export default async function Page({ params }: { params: { channel: string } }) {

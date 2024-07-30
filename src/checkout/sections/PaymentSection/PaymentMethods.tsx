@@ -10,7 +10,7 @@ export const PaymentMethods = () => {
 		updateState: { checkoutDeliveryMethodUpdate },
 	} = useCheckoutUpdateState();
 
-	// Méthodes de livraison change total price so we want to wait until the change is done
+	// delivery methods change total price so we want to wait until the change is done
 	if (changingBillingCountry || fetching || checkoutDeliveryMethodUpdate === "loading") {
 		return <PaymentSectionSkeleton />;
 	}

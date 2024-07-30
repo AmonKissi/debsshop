@@ -21,7 +21,7 @@ export const DeleteLineButton = ({ lineId, checkoutId }: Props) => {
 			}}
 			aria-disabled={isPending}
 		>
-			{isPending ? "Removing" : "Retirer"}
+			{isPending ? "Removing" : "Remove"}
 			<span className="sr-only">Supprimer de la commande</span>
 		</button>
 	);
