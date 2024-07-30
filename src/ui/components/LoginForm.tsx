@@ -36,7 +36,7 @@ export async function LoginForm() {
 				</div>
 				<div className="mb-4">
 					<label className="sr-only" htmlFor="password">
-						Password
+					   Mot de passe
 					</label>
 					<input
 						type="password"
@@ -52,7 +52,7 @@ export async function LoginForm() {
 					className="rounded bg-neutral-800 px-4 py-2 text-neutral-200 hover:bg-neutral-700"
 					type="submit"
 				>
-					Log In
+					Se connecter
 				</button>
 			</form>
 			<div></div>

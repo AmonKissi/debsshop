@@ -11,17 +11,17 @@ import { getOrderedAddressFields, getRequiredAddressFields } from "@/checkout/co
 
 export type AddressFieldLabel = Exclude<AddressField, "countryCode"> | "country";
 export const addressFieldMessages: Record<AddressFieldLabel, string> = {
-	city: "City",
-	firstName: "First name",
-	countryArea: "Country area",
-	lastName: "Last name",
-	country: "Country",
-	cityArea: "City area",
-	postalCode: "Postal code",
-	companyName: "Company",
-	streetAddress1: "Street address",
-	streetAddress2: "Street address (continue)",
-	phone: "Phone number",
+	city: "Ville",
+	firstName: "Prénom",
+	countryArea: "Région",
+	lastName: "Nom",
+	country: "Pays",
+	cityArea: "Quartier",
+	postalCode: "Code postal",
+	companyName: "Entreprise",
+	streetAddress1: "Adresse",
+	streetAddress2: "Adresse (suite)",
+	phone: "Numéro de téléphone",
 };
 
 export type LocalizedAddressFieldLabel =

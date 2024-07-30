@@ -57,5 +57,5 @@ export async function addCurrentProductToCart({ page }: { page: Page }) {
 
 export async function openCart({ page }: { page: Page }) {
 	await page.getByTestId("CartNavItem").click();
-	await page.getByText("Your Shopping Cart").waitFor();
+	await page.getByText("Votre panier").waitFor();
 }

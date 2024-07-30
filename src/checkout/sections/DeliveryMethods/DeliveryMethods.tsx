@@ -35,14 +35,14 @@ export const DeliveryMethods: React.FC<CommonSectionProps> = ({ collapsed }) => 
 		<FormProvider form={form}>
 			<Divider />
 			<div className="py-4" data-testid="deliveryMethods">
-				<Title className="mb-2">Delivery methods</Title>
+				<Title className="mb-2">Méthodes de livraison</Title>
 				{!authenticated && !shippingAddress && (
-					<p>Please fill in shipping address to see available shipping methods</p>
+					<p>Veuillez remplir l'adresse de livraison pour voir les méthodes de livraison disponibles.</p>
 				)}
 				{authenticated && !shippingAddress && updateState.checkoutShippingUpdate ? (
 					<DeliveryMethodsSkeleton />
 				) : (
-					<SelectBoxGroup label="delivery methods">
+					<SelectBoxGroup label="Méthodes de livraison">
 						{shippingMethods?.map(
 							({ id, name, price, minimumDeliveryDays: min, maximumDeliveryDays: max }) => (
 								<SelectBox key={id} name="selectedMethodId" value={id}>

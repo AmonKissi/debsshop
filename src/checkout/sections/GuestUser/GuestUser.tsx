@@ -21,7 +21,7 @@ export const GuestUser: React.FC<GuestUserProps> = ({
 
 	return (
 		<SignInFormContainer
-			title="Contact details"
+			title="Coordonnées"
 			redirectSubtitle="Already have an account?"
 			redirectButtonLabel="Sign in"
 			onSectionChange={onSectionChange}
