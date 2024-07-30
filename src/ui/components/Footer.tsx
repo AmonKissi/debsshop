@@ -73,8 +73,8 @@ export async function Footer({ channel }: { channel: string }) {
 					})}
 				</div>
 				<div className="flex flex-col items-start border-t border-neutral-200 py-10">
-					<h3 className="text-sm font-semibold text-neutral-900">achat@debsshops.com</h3>
-					<h3 className="text-sm font-semibold text-neutral-900">+225 07 97 33 90 29</h3>
+					<h3 className="text-sm font-semibold text-neutral-900">📧 Achat@debsshops.com</h3>
+					<h3 className="text-sm font-semibold text-neutral-900">📞 +225 07 97 33 90 29</h3>
 				</div>
 
 				{channels?.channels && (
@@ -86,7 +86,7 @@ export async function Footer({ channel }: { channel: string }) {
 				)}
 
 				<div className="flex flex-col justify-between border-t border-neutral-200 py-10 sm:flex-row">
-					<p className="text-sm text-neutral-500">Copyright {currentYear} Debs Shop Inc</p>
+					<p className="text-sm text-neutral-500">Copyright {currentYear} Deb's Shop, Inc</p>
 					<p className="flex gap-1 text-sm text-neutral-500">
 						Powered by{" "}
 						<Link target={"_blank"} href={"https://brstore.us"}>
