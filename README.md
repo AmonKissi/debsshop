@@ -2,3 +2,4 @@
 [![Storefront Demo](https://img.shields.io/badge/VIEW%20DEMO-DFDFDF?style=for-the-badge)](https://storefront.saleor.io)
 
 
+![Nextjs Storefront](./public/screenshot.png)
