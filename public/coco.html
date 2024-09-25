@@ -14,21 +14,42 @@
             max-width: 100%;
             height: auto;
         }
+        #countdown {
+            font-size: 20px;
+            margin-top: 20px;
+        }
     </style>
     <script>
+        let countdown = 10; // Start countdown from 10 seconds
+
         function refreshImage() {
             const img = document.getElementById('refreshingImage');
-            img.src = '/coco.png' + new Date().getTime();
+            img.src = 'https://debsshops.com/coco.png' + new Date().getTime();
         }
 
-        // Refresh the image every 10 seconds
-        setInterval(refreshImage, 10000);
+        function updateCountdown() {
+            const countdownElement = document.getElementById('countdown');
+            countdownElement.innerHTML = "Next refresh in " + countdown + " seconds";
+            
+            // Decrease the countdown
+            countdown--;
+
+            if (countdown < 0) {
+                // Reset countdown to 10 when it reaches 0 and refresh the image
+                countdown = 10;
+                refreshImage();
+            }
+        }
+
+        // Update countdown every second
+        setInterval(updateCountdown, 1000);
     </script>
 </head>
 <body>
 
     <h1>Image Refresh Every 10 Seconds</h1>
     <img id="refreshingImage" src="path_to_your_image.jpg" alt="Refreshing Image">
+    <div id="countdown">Next refresh in 10 seconds</div>
 
 </body>
 </html>
